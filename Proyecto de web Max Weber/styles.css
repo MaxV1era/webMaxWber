@@ -1,0 +1,107 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #6363b6, #3627c2);
+    text-align: center;
+}
+header {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.header-img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 12px;
+    max-width: 800px;
+    text-align: left;
+    box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0px 8px 20px rgba(255, 255, 255, 0.3);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.section-img {
+    width: 40%;
+    max-height: 200px;
+    border-radius: 12px;
+    box-shadow: 3px 3px 15px rgba(255, 255, 255, 0.3);
+    transition: opacity 0.4s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.section-img:hover {
+    opacity: 0.85;
+    transform: scale(1.05);
+}
+
+h2 {
+    color: white;
+    font-size: 26px;
+}
+
+p {
+    font-size: 18px;
+    color: #f0f0f0;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+    color: #f0f0f0;
+}
+
+/* Footer */
+footer {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    backdrop-filter: blur(10px);
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Estilo para la frase de Weber */
+.weber-quote {
+    font-size: 18px;
+    font-style: italic;
+    color: #f0f0f0;
+    max-width: 700px;
+    margin: 0 auto 10px auto;
+    padding: 10px;
+}
